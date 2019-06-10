@@ -16,24 +16,24 @@ T3DRenderController *renderVC = [[T3DRenderController alloc] initWithSessionName
 [self.view addSubview:renderVC.view];
 ```
 
-Then to load a model you need to create a T3DModelPathInfo instance, specifying the name of the model with the extension, the path to the material file (if needed) and the relative path in your project, by default this class will look for the files in your main bundle, but you can change that with the property modelPathType and set it to the documents or temporary directories.
+Then to load a model you need to create a T3DObject instance with a class method that requires a relative path to the folder in which the model assets are (Emcore3D will search for compatible files and load them accordingly) and specify the source where the model is (it can be main bundle, temporary folder and documents folder).
 
 ```objc
 //3
-T3DModelPathInfo *newModelPath = [T3DModelPathInfo createModelPathInfoWithModelName:@"model.obj" material:@"model.mtl" path:@"/3DModels/"];
+T3DObject *newObject = [T3DObject initWithModelRelativePath:@"Relative Path" andLoadFromSource:T3DResourcePathMainBundle];
 ```
 
-After that you create a T3DObject with the T3DModelPathInfo and add it to the T3DRenderController.
+After that you just have to add it to the T3DRenderController.
 
 ```objc
 //4
-T3DObject *newObject = [T3DObject initWithModelPathObject:newModelPath];
 [renderVC addT3DObject:newObject];
 ```
 
 And that's all, this will display the model in normal mode, if you want to see it in AR you only need to call the next method and add the object to the T3DRenderController inside the completion block.
 
 ```objc
+//5
 [renderVC startARKitWithConfiguration:T3DARConfigurationWorldTracking withCompletion:^{
    [renderVC addT3DObject:newObject];
 }];
