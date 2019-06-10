@@ -272,9 +272,23 @@
 
 /*!
  * @brief  Property to enable/disable shadow to currently object selected.
- * @param shadowActiveInCurrentObjectSelected Boolean Boolean value to enable/disable it.
+ * @param shadowActiveInCurrentObjectSelected Boolean value to enable/disable it.
  */
 @property (nonatomic, assign) BOOL shadowActiveInCurrentObjectSelected;
+
+/*!
+ * @brief  Property to show an alert when there is a warning logged by the Framework.
+ * @discussion By default is set to NO
+ * @param displayWarnings Boolean value to enable/disable it.
+ */
+@property (nonatomic, assign) BOOL displayWarnings;
+
+/*!
+ * @brief  Property to show an alert when there is an error logged by the Framework.
+ * @discussion By default is set to YES
+ * @param displayWarnings Boolean value to enable/disable it.
+ */
+@property (nonatomic, assign) BOOL displayErrors;
 
 /*!
  * @brief  Method to enable/disable shadows in all models.
@@ -488,5 +502,23 @@
  * @param loops The number of times to be repeated (if applicable).
  */
 - (void)performPostRenderEffect:(T3DPostRenderingEffectType)postRenderEffect numberOfLoops:(int)loops;
+
+/*!
+ * @brief  Method to get all the warnings currently logged by the framework as an array of NSString.
+ * @return NSArray.
+ */
+- (NSArray*)getAllWarnings;
+
+/*!
+ * @brief  Method to get all the errors currently logged by the framework as an array of NSString.
+ * @return NSArray.
+ */
+- (NSArray*)getAllErrors;
+
+/*!
+ * @brief  Method to display an alert message with all the errors and warning currently logged by the framework.
+ * @discussion After the alert is called the errors and warnings will be cleared.
+ */
+- (void)displayAlertWithErrorsAndWarnings;
 
 @end

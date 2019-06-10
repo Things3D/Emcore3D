@@ -4,9 +4,10 @@ The Emcore3D Framework is designed to be a fast, lightweight, optimized engine t
 In order to use the framework in your own app you need to get a free development key here [www.emcore3d.com](https://www.emcore3d.com/index.php?page=licenseoptions#licenseoptions), and when you're ready to deploy commercially, choose between an app or company wide license to launch with.
 Also you can check the [documentation](https://www.emcore3d.com/index.php?page=docs) and the [terms of service](https://www.emcore3d.com/index.php?page=terms#terms).
 
-#Quick Start Guide
 
-The first step is to create an instance of T3DRencerController which is the main class of the Framework and then add it to your view.
+# Quick Start Guide
+
+The first step is to create an instance of T3DRenderController which is the main class of the Framework and then add its view to your own.
 
 ```objc
 //1
@@ -37,4 +38,3 @@ And that's all, this will display the model in normal mode, if you want to see i
    [renderVC addT3DObject:newObject];
 }];
 ```
-

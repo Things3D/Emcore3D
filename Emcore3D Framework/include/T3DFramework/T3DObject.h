@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <GLKit/GLKit.h>
 #import "T3DDataStructs.h"
-#import "T3DModelPathInfo.h"
 #import "T3DAnimationStack.h"
 #import <CoreLocation/CoreLocation.h>
 #import "T3DAnimationProperties.h"
@@ -230,10 +229,12 @@ typedef void (^objectLoadingBlock)(float progress,T3DObject* object);
 
 /*!
  * @brief  Method to create a new instance of a T3DObject.
- * @param modelPathInfo The T3DModelPathInfo instance with all the information needed to load a 3d model.
+ * @param relativePath The relative path to the folder that contains the 3D model and its resources.
+ * @param loadPath The T3DResourcePath enumeration to define where to look for the files (main bundle, documents folder, temporaty folder, none).
+ * @discussion If T3DResourcePathNone is specified as the loadPath, you need to give the full absolute path instead of a relative one.
  * @return instancetype
  */
-+ (instancetype)initWithModelPathObject:(T3DModelPathInfo*)modelPathInfo;
++ (instancetype)initWithModelRelativePath:(NSString*)relativePath andLoadFromSource:(T3DResourcePath)loadPath;
 
 /*!
  * @brief  Method to play the media associated with the given material.

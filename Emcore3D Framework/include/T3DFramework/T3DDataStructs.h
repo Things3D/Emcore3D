@@ -153,6 +153,18 @@ typedef enum {
 }T3DFBXMaterialProperty;
 
 /*!
+ @Typedef T3DMaterialMap
+ */
+typedef enum {
+    T3DMaterialMapDiffuse,
+    T3DMaterialMapEmissive,
+    T3DMaterialMapAmbient,
+    T3DMaterialMapSpecular,
+    T3DMaterialMapNormal,
+    T3DMaterialMapAlpha
+}T3DMaterialMap;
+
+/*!
  @Typedef T3DObjectAnimation
  */
 typedef enum {
@@ -164,6 +176,16 @@ typedef enum {
     T3DObjectAnimationScale200AndCenter,
     T3DObjectAnimationFromObjectToUserPos
 }T3DObjectAnimation;
+
+/*!
+ * @brief T3DResourcePath
+ */
+typedef enum{
+    T3DResourcePathNone,
+    T3DResourcePathMainBundle,
+    T3DResourcePathDocumentsDirectory,
+    T3DResourcePathTempDirectory
+}T3DResourcePath;
 
 /*!
  @Typedef T3DObjectEffectType
@@ -290,10 +312,10 @@ typedef enum {
     T3DShaderTypeLine,
     T3DShaderTypeCircle,
     T3DShaderTypeToon,
-    T3DShaderTypeSmiley,
+    T3DShaderTypeYellowGradient,
     T3DShaderTypeClay,
     T3DShaderTypeJelly,
-    T3DShaderTypeSmileyEuroBlinn,
+    T3DShaderTypeYellowGradientEuroBlinn,
     T3DShaderTypeEffect,
     T3DShaderTypePoint,
     T3DShaderTypeARShutter,
@@ -313,7 +335,8 @@ typedef enum {
     T3DShaderTypeOriginalRGB,
     T3DShaderTypeBarrel,
     T3DShaderTypeRipple,
-    T3DShaderTypeNormals
+    T3DShaderTypeNormals,
+    T3DShaderTypeWireFrame
 }T3DShaderType;
 
 /*!
@@ -379,7 +402,8 @@ typedef enum {
     T3DAttributeTypePosition,
     T3DAttributeTypeTexel,
     T3DAttributeTypeNormals,
-    T3DAttributeTypeTangentNormals
+    T3DAttributeTypeTangentNormals,
+    T3DAttributeTypeBarycentric
 }T3DAttributeType;
 
 /*!

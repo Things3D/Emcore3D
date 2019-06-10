@@ -1,0 +1,20 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 23.05.2015 14:47:40
+
+newmtl Material__72
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Joker_Diffuse.jpg
+	map_Kd Joker_Diffuse.jpg
+	map_Ks Joker_Specular.jpg
+	map_d Joker_Alpha.jpg
+	map_bump Joker_Normal.jpg
+	bump Joker_Normal.jpg

@@ -44,6 +44,11 @@
  */
 @property (nonatomic, assign) BOOL lightFollowsCamera;
 /*!
+ * @brief Property to enable/disable the light on models.
+ * @param affectsModels
+ */
+@property (nonatomic, assign) BOOL affectsModels;
+/*!
  * @brief Property to set/get the light position.
  * @param lightPosition
  */

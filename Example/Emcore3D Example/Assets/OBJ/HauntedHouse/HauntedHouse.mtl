@@ -1,0 +1,231 @@
+newmtl K_Pinza_Dynamic_Mat2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.06 0.06 0.06
+Ns 3.43
+newmtl K_Pinza_Dynamic_Mat3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 3.43
+newmtl K_Pinza_Dynamic_Mat4_Quad
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 3.43
+newmtl K_Pinza_Dynamic_Mat4_Quad2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 3.43
+newmtl K_Pinza_Dynamic_Mat4_Quad3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 3.43
+newmtl K_Pinza_Dynamic_Mat4_Quad4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 3.43
+newmtl K_Pinza_Dynamic_Mat4_Quad5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 3.43
+newmtl K_Pinza_Dynamic_Mat5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.06 0.06 0.06
+Ns 3.43
+newmtl Pinza_Dynamic_A_SmallPortrait1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.06 0.06 0.06
+Ns 3.43
+newmtl Pinza_Dynamic_Z
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_Dynamic_Z.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl Pinza_Dynamic_Z_Fire
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_Dynamic_Y.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Pinza_Static_A
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Textur_Mat_A.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.59
+newmtl Pinza_Static_B
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_B.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl Pinza_Static_E
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_E.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl Pinza_Static_F
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_F.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Pinza_Static_G
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_G.png
+Ni 1.00
+Ks 0.07 0.07 0.07
+Ns 59.04
+newmtl Pinza_Static_H
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_H.png
+Ni 1.00
+Ks 0.02 0.02 0.02
+Ns 0.00
+newmtl Pinza_Static_I
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_I.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Pinza_Static_J
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_J.png
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 1.77
+newmtl Pinza_Static_K
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_K.png
+Ni 1.00
+Ks 0.06 0.06 0.06
+Ns 72.64
+newmtl Pinza_Static_K1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_K.png
+Ni 1.00
+Ks 0.02 0.02 0.02
+Ns 3.43
+newmtl Pinza_Static_L
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_L.png
+Ni 1.00
+newmtl Pinza_Static_M
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_M.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl Pinza_Static_N
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_N.png
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 9.45
+newmtl Pinza_Static_Z
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_Z.png
+Ni 1.00
+Ks 0.22 0.22 0.22
+Ns 66.12
+newmtl Pinza_Texture_C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Mat_C.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl Z_Pinza_Static_Ghost_Mat
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.34 0.34 0.34
+map_Kd GirlPose_BaseColor.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00

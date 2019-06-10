@@ -20,39 +20,44 @@
 @interface T3DAnchor : NSObject
 
 /*!
- * @brief  Property to know what type of anchor it was created from.
+ * @brief Property to know what type of anchor it was created from.
  * @param anchorType T3DAnchorType enumeration.
  */
 @property (nonatomic, assign) T3DAnchorType anchorType;
 /*!
- * @brief  Property to know the anchor identifier.
+ * @brief Property to know the anchor identifier.
  * @param anchorIdentifier
  */
 @property (nonatomic, strong) NSString *anchorIdentifier;
 /*!
- * @brief  Property to get the model identifier to which this anchor is binded.
+ * @brief Property to get the model identifier to which this anchor is binded.
  * @param modelIdentifier
  */
 @property (nonatomic, strong) NSString *modelIdentifier;
 /*!
- * @brief  Property to get the position of the anchor.
+ * @brief Property to get the position of the anchor.
  * @param position
  */
 @property (nonatomic, assign) GLKVector3 position;
 /*!
- * @brief  Property to get the size of the anchor.
+ * @brief Property to get the size of the anchor.
  * @param size
  */
 @property (nonatomic, assign) GLKVector3 size;
 /*!
- * @brief  Property to get the center of the anchor.
+ * @brief Property to get the center of the anchor.
  * @param center
  */
 @property (nonatomic, assign) GLKVector3 center;
 /*!
- * @brief  Property to get the faceBlendShapes if it is of type T3DAnchorTypeFace.
+ * @brief Property to get the faceBlendShapes if it is of type T3DAnchorTypeFace.
  * @param faceBlendShapes
  */
 @property (nonatomic, strong) NSDictionary *faceBlendShapes;
+/*!
+ * @brief Property with the description of the anchor.
+ * @param anchorDescription
+ */
+@property (nonatomic, strong) NSString *anchorDescription;
 
 @end
